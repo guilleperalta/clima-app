@@ -10,14 +10,14 @@ const AppClima = () => {
 
   return (
     <>
-        <main className='dos-columnas'>
+        <main className="dos-columnas">
             <Formulario />
 
             {
               cargando ? <Spinner /> : 
               resultado?.name ? <Resultado /> : 
-              noResultado ? <p>{noResultado}</p> : 
-              <p>El clima se va a mostrar aquí</p>
+              noResultado ? <p className="loading">{noResultado}</p> : 
+              <p className="loading">El clima se va a mostrar aquí</p>
             }
         </main>
     </>
