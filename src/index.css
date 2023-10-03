@@ -89,6 +89,9 @@ form {
   width: 100%;
   height: 100%;
 }
+p.loading {
+  margin: 0;
+}
 .clima > p:first-of-type {
   font-size: 4rem;
   font-family: 'Inter', sans-serif;
